@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    background-color: rgb(8, 15, 36);
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 650px;
+    right: 60px;
+    top: 60px;
+}
+
+#nav {
+    color: rgb(255, 170, 255);
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+}
