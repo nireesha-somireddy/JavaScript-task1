@@ -1,0 +1,12 @@
+body {
+
+    background-color: rgb(3, 1, 29);
+
+}
+
+.time {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    color:aliceblue;
+}
