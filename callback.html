@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image:url('callback.jpg');background-size:cover">
+    <form style="text-align: center; margin-top:9%;">
+        <h1 style="color:beige"> Hello friends :) :) </h1>
+        <h2 style="color:beige"> Welcome to my Page</h2>
+        <h3 style="color:rgb(149, 136, 185)">Please visit again </h3>
+        <h2 style="color:rgb(194, 192, 209)">THANK YOU </h2>
+    </form>
+    <script>
+        function showData(name, amt) {
+            alert(' Hello ' + name + '\n Your entered amount is ' + amt);
+        }
+        function getData(callback) {
+            var name = prompt(" Welcome please enter your name?");
+            var amt = prompt(" Enter some amount...");
+            callback(name, amt);
+        }
+        getData(showData);
+    </script>
+</body>
+
+</html>
