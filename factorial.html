@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>factorial</title>
+    <link rel="stylesheet" href="factorial.css" />
+</head>
+
+<body id="form">
+    <h1 id="a"> FACTORIAL NUMBER</h1>
+    <form>
+        <input type="number" id="number" placeholder="Enter number" />
+        <input type="submit" id="nav1" value="check" /> <input type="reset" id="nav1" value="Clear" />
+
+        <p id="result" value="clear">
+        </p>
+
+    </form>
+    <script>
+        const form = document.getElementById("form");
+        form.onsubmit = function () {
+            const num = document.getElementById("number").value;
+            const result = document.getElementById("result");
+            var i, fact = 1;
+            for (i = 1; i <= num; i++) {
+                fact = fact * i;
+            }
+            result.innerHTML = fact;
+            return false;
+        }
+    </script>
+</body>
+
+</html>
